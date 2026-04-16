@@ -33,5 +33,4 @@ canvas_result = st-canvas(
   height = canvas_height,
   width = canvas_width,
   drawing_mode = drawing_mode,
-  key = f"canvas_{canvas_width}_{canvas_height}",
-)
+  key = f"canvas_{canvas_width}_{canvas_height}",)
