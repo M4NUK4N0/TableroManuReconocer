@@ -18,7 +18,7 @@ with st.sidebar:
   )
 
 
-  stroke_width - st.slider("Selecciona el ancho de la linea", 1, 30, 15)
+  stroke_width = st.slider("Selecciona el ancho de la linea", 1, 30, 15)
 
   stroke_color = st.color_picker("Selecciona el color de la línea", "#FFFFFF")
 
