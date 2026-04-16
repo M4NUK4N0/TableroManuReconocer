@@ -24,13 +24,12 @@ with st.sidebar:
 
   bg_color = st.color_picker("Color de fondo del tablero", "#000000")
 
-
-canvas_result = st_canvas(
-  fill_color = "rgba(255, 165, 0, 0.3)",
-  stroke_width = stroke_width,
-  stroke_color = stroke_color, 
-  backround_color = bg_color,
-  height = canvas_height,
-  width = canvas_width,
-  drawing_mode = drawing_mode,
-  key = f"canvas_{canvas_width}_{canvas_height}")
+  canvas_result = st_canvas(
+    fill_color = "rgba(255, 165, 0, 0.3)",
+    stroke_width = stroke_width,
+    stroke_color = stroke_color, 
+    backround_color = bg_color,
+    height = canvas_height,
+    width = canvas_width,
+    drawing_mode = drawing_mode,
+    key = f"canvas_{canvas_width}_{canvas_height}")
